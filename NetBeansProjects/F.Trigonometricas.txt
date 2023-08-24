@@ -1,0 +1,13 @@
+package com.mycompany.clasemath;
+
+public class Clasemath {
+
+    public static void main(String[] args) {
+        
+        double angulo = 45.0*Math.PI/180.0;
+        System.out.println("cos("+angulo+")es"+Math.cos(angulo));
+        System.out.println("sin("+angulo+")es"+Math.sin(angulo));
+        System.out.println("tan("+angulo+")es"+Math.tan(angulo));
+        
+    }
+}

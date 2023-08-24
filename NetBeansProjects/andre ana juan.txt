@@ -1,0 +1,12 @@
+    public static void main(String[] args) {
+        
+       int ana = 0;
+       
+        int andres = Integer.parseInt(JOptionPane.showInputDialog("ingrese una cantida de monedas"));
+        JOptionPane.showMessageDialog(null,"Andres tiene: " + andres + " Monedas");
+        JOptionPane.showMessageDialog(null,"Ana tiene: " + (ana = andres/2)+ " Monedas");
+        JOptionPane.showMessageDialog(null,"Juan tiene: " + (andres+ana)/2 + " Monedas");
+        
+    }
+    
+}

@@ -1,0 +1,35 @@
+package com.mycompany.motor;
+
+import javax.swing.JOptionPane;
+
+public class Motor {
+
+    public static void main(String[] args) {
+      
+        
+        
+        int tipomotor;
+       
+            tipomotor = Integer.parseInt(JOptionPane.showInputDialog( "ingrese una opcion "));
+        
+       switch (tipomotor){
+           
+       case 0:
+       JOptionPane.showMessageDialog(null,"No ha establecido un valor definido para el tipo de bomba");
+       break;
+       case 1:
+       JOptionPane.showMessageDialog(null,"la bomba es una bomba de agua");
+       break;
+       case 2:
+       JOptionPane.showMessageDialog(null,"la bomba es de gasolina");
+       break;
+       case 3:
+       JOptionPane.showMessageDialog(null,"la bomba es de hormigon");
+       break;
+       case 4:
+       JOptionPane.showMessageDialog(null,"la bomba es una");
+       
+       default:
+           JOptionPane.showMessageDialog(null,"No existe un valor valido para ese tipo de bomba");
+        
+       } 

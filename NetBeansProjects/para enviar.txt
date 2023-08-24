@@ -1,0 +1,27 @@
+package com.mycompany.mavenproject4;
+
+import javax.swing.JOptionPane;
+
+
+public class Mavenproject4 {
+
+    public static void main(String[] args) {
+       int n1 = Integer.parseInt(JOptionPane.showInputDialog("es usted mayor de edad? \n. si = 1 \n. no = 2"));
+       
+       if (n1==1){
+           JOptionPane.showMessageDialog(null, ("usted  puede trabajar"));
+        }else{
+               JOptionPane.showMessageDialog(null, ("usted no puede trabajar"));
+           }
+       
+     int n2 = Integer.parseInt(JOptionPane.showInputDialog("es usted tiene trabajo? \n. si = 1 \n. no = 2"));
+        
+           if (n2==1){
+           JOptionPane.showMessageDialog(null, ("usted no  puede trabajar"));
+        }else {
+               JOptionPane.showMessageDialog(null, ("usted  puede trabajar"));
+           }
+           
+}
+    
+}   

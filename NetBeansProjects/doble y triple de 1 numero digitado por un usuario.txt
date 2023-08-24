@@ -1,0 +1,26 @@
+Scanner yefry = new Scanner (System.in);
+    int num1;
+    int op2;
+    int op3;
+    System.out.println("digite un numero para saber su doble y su triple");
+        num1 = yefry.nextInt(); 
+    op2 = num1 * 2;
+    op3 = num1 * 3;        
+    System.out.println("el doble de "+num1+ " es: "+op2);
+    System.out.println("el triple de "+num1+ " es: "+op3);
+        
+        
+    }
+}
+
+//////////////////
+// el mismo pero reduciondo codig
+Scanner yefry = new Scanner (System.in);
+    int num1;
+    
+    System.out.println("digite un numero para saber su doble y su triple");
+        num1 = yefry.nextInt(); 
+            
+    System.out.println("el doble de "+num1+ " es: " + 2*num1);
+    System.out.println("el triple de "+num1+ " es: " + 3*num1);
+        

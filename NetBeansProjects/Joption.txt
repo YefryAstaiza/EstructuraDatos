@@ -1,0 +1,19 @@
+
+package com.mycompany.options;
+
+import javax.swing.JCheckBox;
+import javax.swing.JOptionPane;
+public class Options {
+
+    public static void main(String[] args) {
+       int resp = JOptionPane.showConfirmDialog(null,"usas mucho el JOption?"); if (JOptionPane.OK_OPTION==resp){System.out.print("selecciona opcion afirmativa"); }
+       else { System.out.print("no selecciona una opcion afirmativa");}
+       Object color =JOptionPane.showInputDialog( null, "seleccione un color", "colores",JOptionPane.QUESTION_MESSAGE, null, new Object[] { "selecione","amarillo","azul","rojo"},"Seleccione");
+       String nombre = JOptionPane.showInputDialog(null, "ingrese su nombre");
+       int numero = Integer.parseInt(JOptionPane.showInputDialog("ingrese un" + "numero para multiplicarlo por 2"));
+       JOptionPane.showMessageDialog(null, "Este es un mensaje simple de tipo informacion", "mensaje", JOptionPane.INFORMATION_MESSAGE);
+       JOptionPane.showMessageDialog(null, "ESTE ES UN MENSAJE DE ADVERTENCIA", "WARNING_MESSAGE", JOptionPane.WARNING_MESSAGE);
+           JOptionPane.showMessageDialog(null, nombre);
+           JCheckBox chec=new JCheckBox("prueba"); int seleccion = JOptionPane.showOptionDialog(null,"seleccione una opcion","selector de opciones",JOptionPane.YES_NO_CANCEL_OPTION,JOptionPane.QUESTION_MESSAGE,null,new Object[] {"opcion1","opcion2","opcion3",chec},"opcion1");if(seleccion !=-1){System.out.println("seleccionada opcion"+(seleccion+1));}if(chec.isSelected()){System.out.println("selecciona el chec");}
+    }
+}

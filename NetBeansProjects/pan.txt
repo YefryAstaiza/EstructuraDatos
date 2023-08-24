@@ -1,0 +1,38 @@
+int cantpanes, pq, pg, catdias, valpq, valpg, valpa, gand = 0, ganmes = 0, ganpq, ganpg, totalv = 0, dcto;
+        
+        Scanner s = new Scanner( System.in);
+        System.out.println("cuantos dias se trabajaron");
+        catdias = s.nextInt();
+        for(int i = 1; i <= catdias;i++){
+            System.out.println("dia "+i);
+        System.out.println("ingrese la cantidad total de panes que compro");
+        cantpanes = s.nextInt();
+        do{
+            System.out.println("cuantos panes pequeños compro");
+            pq = s.nextInt();
+            valpq = pq * 300;
+            ganpq = (int) ((300*0.02)*pq);
+            System.out.println("cuantos panes grandes compro");
+            pg = s.nextInt();
+            valpg = pg * 500;
+            ganpg = (int) ((500*0.02)*pg);
+        }while(cantpanes != (pq +pg));
+        valpa = valpq + valpg;
+            if(cantpanes > 20){
+                dcto = (int) (valpa*0.05);
+                valpa = (int) (valpa * 0.95);
+                System.out.println("el valor a pagar es de: "+valpa);
+                System.out.println("el descuento que se le realizo por la compra superior a 20 panes es de: "+dcto);
+            }else{
+                System.out.println("el valor a cancelar es de: "+valpa);
+            }
+            gand = ganpq + ganpg;
+            System.out.println("la ganancia del dia es de: "+gand);
+            totalv = totalv + valpa;
+            ganmes = ganmes + gand;
+        }
+        System.out.println("el total de ventas del mes fue de: "+totalv);
+        System.out.println("el total de ganancias del mes fue: "+ganmes);
+    }
+    
+}

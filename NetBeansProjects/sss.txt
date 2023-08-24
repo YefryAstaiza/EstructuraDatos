@@ -1,0 +1,24 @@
+        
+        int i, suma=0, j=0, cantidad, nota = 0;
+        float promedio=0;
+        
+        Scanner tecla= new Scanner(System.in);
+        System.out.println("ingrese la cantidad de notas");
+        cantidad = (int)tecla.nextInt();
+        for (i = 1; i<=cantidad; i++) {
+            System.out.println("ingrese la nota "+i+":");
+            nota=tecla.nextInt();
+            if (nota==0 || nota<=20) {
+            suma=suma+nota;
+            j++;
+        }
+            promedio=suma/j;
+            
+            
+            
+            
+        }
+      System.out.println("el promedio de las notas es:" +promedio);
+        
+    }
+}

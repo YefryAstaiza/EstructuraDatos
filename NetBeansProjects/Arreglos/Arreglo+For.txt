@@ -1,0 +1,13 @@
+        //Arreglos de Tipo Numerico
+        String datos [] = new String [3];
+         datos [0] = "Julia";
+        datos [1] = "Ana";
+        datos [2] = "Raquel";
+        // impresion
+
+        for(int i=0; i<3; i++)
+        {
+            System.out.println(datos[i]);
+        }
+    }
+}

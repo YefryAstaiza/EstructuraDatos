@@ -1,0 +1,25 @@
+package com.mycompany.mavenproject5;
+
+import javax.swing.JOptionPane;
+
+
+public class Mavenproject5 {
+
+    public static void main(String[] args) {
+      String n =(JOptionPane.showInputDialog("ingrese su nombre"));
+      int llantas = 120000;
+      int llantas2 = 100000;
+      int n2 = Integer.parseInt(JOptionPane.showInputDialog("ingrese nuemro de llantas"));
+      if (n2<12){
+               int tl = n2* llantas;
+           JOptionPane.showMessageDialog(null, ("usted  tiene un descuento del 20% : $"+(tl-(tl*0.20))));
+      if (n2>12){
+               int t2 = n2* llantas2;
+           JOptionPane.showMessageDialog(null, ("usted  tiene un descuento del 25% : $"+(t2-(t2*0.25))));     
+                   
+                   
+     
+    }
+}
+}
+}

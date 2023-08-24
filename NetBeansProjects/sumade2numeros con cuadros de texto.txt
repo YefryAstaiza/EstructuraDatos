@@ -1,0 +1,16 @@
+package com.mycompany.mavenproject5;
+
+import javax.swing.JOptionPane;
+
+
+
+public class Mavenproject5 {
+
+    public static void main(String[] args) {
+        
+        int num = Integer.parseInt(JOptionPane.showInputDialog("ingrese numero para sumar"));
+        int num1 = Integer.parseInt(JOptionPane.showInputDialog("ingrese numero para sumar"));
+        int suma = num + num1;
+       JOptionPane.showMessageDialog(null, "la suma es: " +suma);
+    }
+}

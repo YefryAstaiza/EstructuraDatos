@@ -1,0 +1,23 @@
+        
+       int num, pares = 0; int impares = 0;
+       
+       num = Integer.parseInt(JOptionPane.showInputDialog("ingrese la cantidad de numeros"));
+       // creacion del arreglo
+       double nume [] = new double [num];
+       
+       for (int i=0; i<num; i++){
+           // nume[i] indica la posicion del dato
+       nume[i] = Integer.parseInt(JOptionPane.showInputDialog("ingrese el numero " + (i+1)));
+       // (nume[i]%2==0){ "si el numero ingresado es par  y su residuo 0 cumplira la condicion y sumara 1+ al acumulador pares"
+       if(nume[i]%2==0){
+           pares = pares + 1;
+          // eslse= si no se cumple esa condicion significa que es impar y sumara +1 al acumulador impar 
+       } else {
+            impares = impares + 1;
+           
+       }
+    }
+    JOptionPane.showMessageDialog(null, "usted ingreso "+pares+ " numeros pares");
+    JOptionPane.showMessageDialog(null, "usted ingreso "+impares+ " numeros impares");
+}
+}

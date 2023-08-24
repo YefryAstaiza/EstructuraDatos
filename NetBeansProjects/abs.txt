@@ -1,0 +1,9 @@
+package com.mycompany.clasemath;
+
+public class Clasemath {
+
+    public static void main(String[] args) {
+        int i = -9;
+        double x = 0.3498;
+        System.out.println("el valor absoluto de: |"+i+"| es: "  + Math.abs(i));
+        System.out.println("|"+x+"| es" + Math.abs(i));

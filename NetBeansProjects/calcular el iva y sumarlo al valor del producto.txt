@@ -1,0 +1,20 @@
+package com.mycompany.eejem2;
+
+import java.util.Scanner;
+public class Eejem2 {
+
+    public static void main(String[] args) {
+        
+        Scanner yefry = new Scanner (System.in);
+        double precio;
+        double iva = 0.19;
+        double total;
+        System.out.println("Digite el precio del producto");
+        precio = yefry.nextDouble();
+              iva= precio * iva;
+              total= iva + precio;
+              System.out.println("el valor del iva de su producto es de: " + iva);
+              System.out.println("el valor del producto mas el iva es: "+ total);
+        
+    }
+}

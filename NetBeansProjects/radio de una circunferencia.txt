@@ -1,0 +1,16 @@
+package com.mycompany.eejem2;
+
+import java.util.Scanner;
+public class Eejem2 {
+
+    public static void main(String[] args) {
+        
+        Scanner yefry = new Scanner (System.in);
+        double radio;
+        System.out.println("Digite el radio del circulo");
+        radio = yefry.nextDouble();
+              radio =  Math.PI*Math.pow(radio,2);
+              System.out.println("el area de un circulo es: "+radio+"cm");
+        
+    }
+}

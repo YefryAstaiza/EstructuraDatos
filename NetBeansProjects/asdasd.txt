@@ -1,0 +1,21 @@
+        int j = 0;
+       int a []= new int [3];
+       int b []= new int [3];
+       int c []= new int [6];
+       for (int i:a){
+           a[i] = Integer.parseInt(JOptionPane.showInputDialog("ingrese el numero "));
+           j++;
+       }
+           for (int i:b){
+               b[i] = Integer.parseInt(JOptionPane.showInputDialog("ingrese el numero "));
+                j++; 
+     
+           }
+    
+       
+       for(int o:c){
+    JOptionPane.showMessageDialog(null, o);
+}
+
+    }
+}

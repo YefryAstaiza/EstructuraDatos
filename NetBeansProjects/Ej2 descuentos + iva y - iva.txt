@@ -1,0 +1,30 @@
+package com.mycompany.mavenproject3;
+
+import javax.swing.JOptionPane;
+
+
+public class Mavenproject3 {
+
+    public static void main(String[] args) {
+        String nombre = JOptionPane.showInputDialog(null, "ingrese su nombre");
+        JOptionPane.showMessageDialog(null, "Bienbenido"+ nombre);
+        double iva1 = 0.4;
+        double iva2 = 0.2;
+        double iva3 = 0.4;
+        double azucar = Double.parseDouble(JOptionPane.showInputDialog("ingrese el precio de la azucar"));
+        int café = Integer.parseInt(JOptionPane.showInputDialog("ingrese el precio del cafe"));
+        int pan = Integer.parseInt(JOptionPane.showInputDialog("ingrese el precio del pan"));
+        
+        double p1 = azucar * iva1;
+        JOptionPane.showMessageDialog(null, "el precio del primer producto + el iva es de "+ (azucar + p1));
+        JOptionPane.showMessageDialog(null, "el precio del primer producto - el iva es de "+ (azucar - p1));
+        
+        double p2 = café * iva2;
+        JOptionPane.showMessageDialog(null, "el precio del segundo producto + el iva es de "+ (café + p2));
+        JOptionPane.showMessageDialog(null, "el precio del segundo producto - el iva es de "+ (café - p2));
+        
+        double p3 = pan * iva3;
+        JOptionPane.showMessageDialog(null, "el precio del tercer producto + el iva es de "+ (pan + p3));
+        JOptionPane.showMessageDialog(null, "el precio del tercer producto - el iva es de "+ (pan - p3));
+    }
+}

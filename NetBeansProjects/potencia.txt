@@ -1,0 +1,11 @@
+package com.mycompany.clasemath;
+
+public class Clasemath {
+
+    public static void main(String[] args) {
+        
+        
+        System.out.println("pow(10, -3.5)es " + Math.pow(10, 3.5));
+        
+    }
+}

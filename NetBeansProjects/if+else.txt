@@ -1,0 +1,11 @@
+ int mat = 5;
+       int bio = 8;
+       int esp = 7;
+       int prom;
+       prom = (mat + bio + esp)/3;
+       if(prom >= 6){
+           System.out.println("el alumno aprobo "+prom);
+       } else {System.out.println("el alumno no aprobo "+prom);
+       }  
+    }
+}

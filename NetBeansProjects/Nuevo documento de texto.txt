@@ -1,0 +1,46 @@
+        double sueldobase=0 , salarit = 0;
+        int horasextra;
+        
+        
+        
+        int cat = Integer.parseInt(JOptionPane.showInputDialog("Que categoria es?"));
+        switch (cat){  
+            
+            case 2:
+                sueldobase = Integer.parseInt(JOptionPane.showInputDialog("cual es su sueldo?"));
+                horasextra = Integer.parseInt(JOptionPane.showInputDialog("cuantas horas extra trabajo?"));
+                if (horasextra>30){
+                JOptionPane.showMessageDialog(null, "su sueldo total es: $"+sueldobase);   
+                }else{
+                salarit = sueldobase+(horasextra*5000);
+                JOptionPane.showMessageDialog(null, "su sueldo total es: $"+salarit);
+            break;
+                }
+             case 3:
+                 sueldobase = Integer.parseInt(JOptionPane.showInputDialog("cual es su sueldo?"));
+                horasextra = Integer.parseInt(JOptionPane.showInputDialog("cuantas horas extra trabajo?"));
+                if (horasextra>30){
+                JOptionPane.showMessageDialog(null, "su sueldo total es: $"+sueldobase);   
+                }else{
+                salarit = sueldobase+(horasextra*8000);
+                JOptionPane.showMessageDialog(null, "su sueldo total es: $"+salarit);
+            break;   
+            }
+             case 4:
+                 sueldobase = Integer.parseInt(JOptionPane.showInputDialog("cual es su sueldo?"));
+                horasextra = Integer.parseInt(JOptionPane.showInputDialog("cuantas horas extra trabajo?"));
+                if (horasextra>30){
+                JOptionPane.showMessageDialog(null, "su sueldo total es: $"+sueldobase);   
+                }else{
+                salarit = sueldobase+(horasextra*12000);
+                JOptionPane.showMessageDialog(null, "su sueldo total es: $"+salarit);
+            break; 
+            }
+             default:
+                JOptionPane.showMessageDialog(null, "usted no pertenece a ninguna categoria, por lo tanto no se le pagaran las horas extra y su salario es: $"+sueldobase);                 
+                   
+                
+            break;   
+            
+        }
+        

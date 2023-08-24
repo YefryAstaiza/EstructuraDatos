@@ -1,0 +1,10 @@
+        // n<=12 cantidad de tablas que se haran
+        for(int n = 1; n<=12; n++){
+            //m<=12 las tablas llegan hasta el 12
+            for (int m = 1; m<=12; m++){
+                int mul = n*m;
+                System.out.println(n+"x"+m+"="+mul);
+            }
+        }
+    }
+}

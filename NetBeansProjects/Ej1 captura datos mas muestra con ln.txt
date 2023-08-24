@@ -1,0 +1,19 @@
+package com.mycompany.mavenproject1;
+import javax.swing.JOptionPane;
+
+public class Mavenproject1 {
+
+    public static void main(String[] args) {
+        String nombre = JOptionPane.showInputDialog(null, "ingrese su nombre");
+        String Apellido = JOptionPane.showInputDialog(null, "ingrese su Apellido");
+        String sexo = JOptionPane.showInputDialog(null, "ingrese su sexo");
+        String edad = JOptionPane.showInputDialog(null, "ingrese su edad");
+        String estatura = JOptionPane.showInputDialog(null, "ingrese su estatura");
+        String peso = JOptionPane.showInputDialog(null, "ingrese su peso");
+        String telefono = JOptionPane.showInputDialog(null, "ingrese su telefono");
+        String direccion = JOptionPane.showInputDialog(null, "ingrese su direccion");
+        String ocupacion = JOptionPane.showInputDialog(null, "ingrese su ocupacion");
+        JOptionPane.showMessageDialog(null,  "nombre: "  + nombre + ". \n nombre: " + Apellido + ". \n sexo: " + sexo + ". \n edad: " + edad + ". \n estatura: " + estatura + ". \n peso: " + peso + ". \n telefono: " + telefono + ". \n direccion: " + direccion + ". \n ocupacion: " + ocupacion);
+        
+    }
+}

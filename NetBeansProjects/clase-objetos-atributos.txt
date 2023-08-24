@@ -1,0 +1,45 @@
+
+package com.mycompany.mavenproject4;
+
+
+// clase llamada automovil
+    public class Automovil {
+    
+    String  modelo;
+    String color; 
+    String km;        
+    String year;   
+ 
+    
+    // metodo publico de nombre avanzar vacio
+    public void avanzar(){
+    // System.out.println("el automovil recorrio 10km");
+}
+    // creo el metodo main
+    public static void main(String[]args){
+                // crear un objeto
+                Automovil obj1 = new Automovil(); 
+                //llama a los atributos despues de crear el nuevo objeto
+                System.out.println(obj1.modelo);
+                //asigno valores a los objetos del atributo modelo de la
+                obj1.modelo = "BMW";
+                System.out.println(obj1.modelo);
+                
+                Automovil obj2 = new Automovil(); 
+                System.out.println(obj2.color);
+                obj2.color = "ROJO";
+                System.out.println(obj2.color);
+                
+                Automovil obj3 = new Automovil(); 
+                System.out.println(obj3.km);
+                obj3.km = "10000km";
+                System.out.println(obj3.km);
+                
+                Automovil obj4 = new Automovil(); 
+                System.out.println(obj4.year);
+                obj4.year = "2023";
+                System.out.println(obj4.year);
+    }
+  
+    
+}  

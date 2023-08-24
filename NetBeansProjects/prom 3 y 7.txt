@@ -1,0 +1,15 @@
+             int num, pares = 0; int sum = 0; float prom = 0;
+        for (int m = 0; m <=100; m++){
+            if(m%3==0 && m%7==0){
+                sum = sum + 1;
+                prom = prom / 100;
+               
+                }
+
+            
+                }
+                    System.out.println("la sumatoria de los impares es"+sum);
+            System.out.println("el promedio de los impares es"+prom);
+    }
+    
+}

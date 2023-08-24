@@ -1,0 +1,13 @@
+Scanner yefry = new Scanner (System.in);
+        
+        int num1;
+        int num2;
+        int op;
+        
+       
+        System.out.println("digite el primer numero");
+        num1 = yefry.nextInt();
+        System.out.println("digite el segundo numero");
+        num2 = yefry.nextInt();     
+        op = num1 + num2;
+        System.out.println("la suma de los numeros es " + op);

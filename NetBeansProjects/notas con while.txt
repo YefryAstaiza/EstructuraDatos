@@ -1,0 +1,17 @@
+ String nomb;
+ double par1, par2 = 0, lab = 0, tar = 0;
+ int nest, j =1;
+ nest=Integer.parseInt(JOptionPane.showInputDialog("numero de estudiantes"));
+ while (j<=nest){
+     nomb=JOptionPane.showInputDialog("NOMBRE");
+     par1 = Integer.parseInt(JOptionPane.showInputDialog("digite su nota1"));
+     par2 = Integer.parseInt(JOptionPane.showInputDialog("digite su nota2"));
+     lab = Integer.parseInt(JOptionPane.showInputDialog("digite su nota de laboratorio"));
+     tar = Integer.parseInt(JOptionPane.showInputDialog("digite su nota de trabajos"));
+     JOptionPane.showMessageDialog(null,"HOLA "+nomb +"\n su nota 1 es: "+par1+"\n su nota 2: "+par2+"\n su nota de laboratorio es: "+lab+"\n su nota de talleres es: "+tar+"/n su nota final es: "+((par1+par2+lab+tar)/4));
+     
+     j++;
+ }
+ 
+    }
+    

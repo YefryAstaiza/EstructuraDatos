@@ -1,0 +1,43 @@
+package com.mycompany.mavenproject8;
+
+import javax.swing.JOptionPane;
+
+
+public class Mavenproject8 {
+
+    public static void main(String[] args) {
+        
+  int masa = Integer.parseInt(JOptionPane.showInputDialog("ingrese su masa"));
+        double estatura = Double.parseDouble(JOptionPane.showInputDialog("ingrese su estatura"));
+        double IMC = masa / estatura*estatura;
+        JOptionPane.showMessageDialog(null, "la persona tiene una masa = " + masa + "kilogramos y estatura =" + estatura + "metros");
+        if (IMC<16){
+            JOptionPane.showMessageDialog(null, "LA persona tiene delgadez severa");
+        }else if (IMC<17){
+            JOptionPane.showMessageDialog(null, "la persona tiene delgadez moderada");
+        }else if (IMC<18.5){
+            JOptionPane.showMessageDialog(null, "la persona tiene delgadez leve");
+        }else if (IMC<25){
+            JOptionPane.showMessageDialog(null, "la persona tiene un peso normal");
+        }else if (IMC<30){
+            JOptionPane.showMessageDialog(null, "la persona tiene sobre peso");
+        }else if (IMC<35){
+            JOptionPane.showMessageDialog(null, "la persona tiene obesidad leve");
+        }else if (IMC<40){
+            JOptionPane.showMessageDialog(null, "la persona tiene obesidad media"); 
+        }else{
+            JOptionPane.showMessageDialog(null, "la persona tiene obesidad morbida");
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+        }
+    }
+
+  
+}

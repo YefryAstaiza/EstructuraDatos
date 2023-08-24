@@ -1,0 +1,11 @@
+package com.mycompany.clasemath;
+
+public class Clasemath {
+
+    public static void main(String[] args) {
+        double x =1.2;
+        
+        System.out.println("la raiz cuadada de" + x +"es: " + Math.sqrt(x));
+        
+    }
+}

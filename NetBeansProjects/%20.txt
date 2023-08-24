@@ -1,0 +1,13 @@
+int contador = 0;
+        for(int x=0; x<=100; x++);
+        {
+            if(x%20!=0)
+            {
+                contador++;
+            }
+            System.out.println(contador);
+        }
+        
+    
+}
+}

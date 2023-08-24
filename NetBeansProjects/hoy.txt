@@ -1,0 +1,35 @@
+        int i, suma=0, j=0, cantidad, cpanes = 0, panes = 0, cpanesg = 0, cpanesp = 0;
+        
+        
+        Scanner tecla= new Scanner(System.in);
+        System.out.println("los dias del mes trabajados");
+        cantidad = (int)tecla.nextInt();
+        for (i = 1; i<=cantidad; i++) {
+            System.out.println("ingrese cantidad de panes vendidos el dia "+i+":");
+            cpanes=tecla.nextInt();
+            System.out.println("ingrese cantidad de panes grandes vendidos");
+            cpanesg=tecla.nextInt();
+            System.out.println("ingrese cantidad de panes vendidos pequeños");
+            cpanesp=tecla.nextInt();
+            if (cpanes==0 || cpanes<=30) {
+            suma=suma+cpanes;
+            j++;
+        switch (panes){ 
+            case 1:
+       if(cpanes==20 ){
+           System.out.println("usted compro mas de 20 panes tiene 5% de descuento en el total de su compra");
+           
+           
+       }
+        }
+            
+            
+            
+            
+            
+        }
+      
+        
+        }
+    }
+}

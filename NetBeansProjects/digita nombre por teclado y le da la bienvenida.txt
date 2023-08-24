@@ -1,0 +1,12 @@
+        Scanner yefry = new Scanner (System.in);
+        String nom;
+        System.out.println("Digite su nombre");
+        nom = yefry.nextLine();
+        System.out.println("BIENBENIDO "+ nom);
+    }
+}
+///////////////////
+
+
+String nom = "yefry" ;
+        System.out.println("BIENBENIDO "+ nom);

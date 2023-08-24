@@ -1,0 +1,16 @@
+        double num, pares= 0, impa= 0, prom=0;
+        Scanner s = new Scanner(System.in);
+        for (int i = 1; i <=5; i++){
+            System.out.println("ingrese el "+i+" numero");
+            num = s.nextDouble();
+            if(num%2 ==0 ){
+                pares = pares + num;
+            }else{
+                impa = impa + num;
+                prom = impa/5;
+            }
+        }
+        System.out.println("la suma de los pares es "+pares);
+        System.out.println("el promedio de los impares es "+prom);
+    }
+}

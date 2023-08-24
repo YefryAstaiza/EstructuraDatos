@@ -1,0 +1,32 @@
+package com.mycompany.mavenproject6;
+
+import javax.swing.JOptionPane;
+
+public class Mavenproject6 {
+
+    public static void main(String[] args) {
+        
+        int compra = Integer.parseInt(JOptionPane.showInputDialog("cuanto es el total de su compra?"));
+        
+        double iva = 0.15;
+        int n1 = Integer.parseInt(JOptionPane.showInputDialog("ingrese el dia actual \n Lunes = 1 \n Martes = 2 \n Miercoles = 3 \n Jueves = 4 \n Viernes = 5 \n Sabado = 6 \n Domingo = 7"));
+        if (n1==1){
+           JOptionPane.showMessageDialog(null, ("hoy es lunes, hoy no tenemos descuentos su total a pagar es: $" + (compra)));
+        } else if (n1==2){
+           JOptionPane.showMessageDialog(null, ("hoy es martes, hoy contamos con 15%  de \n. descuentos en su compra, su total a pagar es:\n. $" + (compra-(compra*iva))));
+           } else if (n1==3){
+           JOptionPane.showMessageDialog(null, ("hoy es miercoles  hoy no tenemos descuentos su total a pagar es: $" + (compra)));
+           } else if (n1==4){
+           JOptionPane.showMessageDialog(null, ("hoy es jueves, hoy contamos con 15%  de \n. descuentos en su compra, su total a pagar es:\n. $" + (compra-(compra*iva))));
+           } else if (n1==5){
+           JOptionPane.showMessageDialog(null, ("hoy es viernes  hoy no tenemos descuentos su total a pagar es: $" + (compra)));
+           } else if (n1==6){
+           JOptionPane.showMessageDialog(null, ("hoy es sabado, hoy no tenemos descuentos su total a pagar es: $" + (compra)));
+           } else if (n1==7){
+           JOptionPane.showMessageDialog(null, ("hoy es domingo, hoy no tenemos descuentos su total a pagar es: $" + (compra)));
+           }else{
+               JOptionPane.showMessageDialog(null, ("ingrese un dia valido"));
+           }
+           }
+        
+           }

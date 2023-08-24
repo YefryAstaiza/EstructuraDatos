@@ -1,0 +1,13 @@
+        float prom=0;
+        int num=0, suma = 0;
+        Scanner s = new Scanner(System.in);
+        for (int i = 1; i <=i; i++){
+            System.out.println("ingrese sus notas "+i+" ");
+            
+            num = (int) s.nextDouble();
+            suma = suma + num;
+            prom = suma / 5;
+}
+        System.out.println("el promedio de las notas es "+prom);
+    }
+}

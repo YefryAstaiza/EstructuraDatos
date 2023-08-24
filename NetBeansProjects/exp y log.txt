@@ -1,0 +1,11 @@
+package com.mycompany.clasemath;
+
+public class Clasemath {
+
+    public static void main(String[] args) {
+        
+        
+        System.out.println("log(1.0)es " + Math.log(1.0));
+        System.out.println("exp(1.0)es " + Math.exp(1.0));
+    }
+}

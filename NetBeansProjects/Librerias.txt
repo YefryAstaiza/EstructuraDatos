@@ -1,0 +1,28 @@
+
+import java.util.Scanner; // llamado de libreria
+double precio; // variable que se le asignaran datos
+Scanner guardar = new Scanner (System.in); //se le da el nombre a una linea donde guardara los datos "guardar"
+System.out.println("Digite el precio del producto"); // se pide el ingreso de datos
+precio = guardar.nextDouble(); // aquí guarda los datos ingresados.
+
+
+
+
+
+import javax.swing.JOptionPane; //llamado de libreria
+JOptionPane.showOptionDialog(); 
+JOptionPane.showMessageDialog;
+JOptionPane.showConfirDialog();
+JOptionPane.showInputDialog(null // String nombre = JOptionPane.showInputDialog(null, "ingrese su nombre");
+JOptionPane con un time out
+JOptionPane modal
+
+JOptionPane.INFORMATION_MESSAGE // JOptionPane.showMessageDialog(null, "Este es un mensaje simple de tipo informacion", "MENSAJE!", JOptionPane.INFORMATION_MESSAGE);
+JOptionPane.ERROR_MESSAGE       
+JOptionPane.WARNING_MESSAGE  // JOptionPane.showMessageDialog(null, "ESTE ES UN MENSAJE DE ADVERTENCIA", "ADVERTENCIA", JOptionPane.WARNING_MESSAGE);
+JOptionPane.QUESTION_MESSAGE
+JOptionPane.PLAIN_MESSAGE
+
+int resp = JOptionPane.showConfirmDialog(null,"usas mucho el JOption?"); if (JOptionPane.OK_OPTION==resp){System.out.print("selecciona opcion afirmativa"); }
+       else { System.out.print("no selecciona una opcion afirmativa");}
+Object color =JOptionPane.showInputDialog( null, "seleccione un color", "colores",JOptionPane.QUESTION_MESSAGE, null, new Object[] { "selecione","amarillo","azul","rojo"},"Seleccione");

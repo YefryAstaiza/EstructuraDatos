@@ -1,0 +1,20 @@
+
+package com.mycompany.mavenproject9;
+
+import javax.swing.JOptionPane;
+
+
+public class Mavenproject9 {
+
+    public static void main(String[] args) {
+        int n1 = Integer.parseInt(JOptionPane.showInputDialog("ingrese un numero para comparar"));
+        int n2 = Integer.parseInt(JOptionPane.showInputDialog("ingrese un numero para comparar"));
+        if (n1<n2){
+            JOptionPane.showMessageDialog(null, "el " + n1 + "es menor que " + n2);
+        }else if (n1>n2){
+            JOptionPane.showMessageDialog(null, "el " + n1 + "es mayor que " + n2);
+        }else{
+            JOptionPane.showMessageDialog(null, "los numeros son iguales");
+        }
+    }
+}

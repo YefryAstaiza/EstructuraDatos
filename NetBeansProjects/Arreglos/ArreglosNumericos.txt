@@ -1,0 +1,11 @@
+  //Arreglos de Tipo Numerico
+        int numeros [] = new int [3];
+        numeros [0] = 23;
+        numeros [1] = 65;
+        numeros [2] = 87;
+        // impresion
+        System.out.println (numeros[0]);
+        System.out.println (numeros[1]);
+        System.out.println (numeros[2]);
+}
+}

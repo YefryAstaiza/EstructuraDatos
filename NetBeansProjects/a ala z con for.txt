@@ -1,0 +1,4 @@
+ for(char c= 'a'; c<='z'; c++)
+    System.out.println("el caracter es: " + c);
+    }
+}
