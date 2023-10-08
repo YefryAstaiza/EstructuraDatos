@@ -1,0 +1,6 @@
+Id del proveerdor: 255555.0
+Nombre del Proveedor: aaaaa
+Gerentes: Yefry Esteban Astaiza Solano ******** Edixon Alexis Pencue Ortega
+Dirección: aaaaaaa
+Email: aaaaaaaa
+Teléfono: aaaaaaaa
